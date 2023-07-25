@@ -1,10 +1,7 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
-
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
-
-
+import { assert, describe, expect, it } from 'vitest'
+import { math } from './App'
+describe('APP', () =>{
+  it('check calculator' , () => {
+  expect(math('3','100' , '*')).toEqual(300)
+  })
+})
