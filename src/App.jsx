@@ -17,6 +17,7 @@ function App() {
 
 	return (
 		<div className="App">
+			<h1>שאני המלכה!!!</h1>
 			<div className="calculator">
 				<input
 				type="number"
