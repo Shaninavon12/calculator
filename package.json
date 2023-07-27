@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm run build && surge ./build/ powerful-seed.surge.sh ",
+    "deploy": "surge ./build/ powerful-seed.surge.sh ",
     "test": "vitest",
     "eject": "react-scripts eject"
   },
